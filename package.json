@@ -10,5 +10,8 @@
   "scripts": {
     "dev": "echo \"Run workspace-specific scripts in each package.\"",
     "lint": "echo \"Add lint scripts per package.\""
+  },
+  "dependencies": {
+    "concurrently": "^10.0.3"
   }
 }
