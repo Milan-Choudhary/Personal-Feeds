@@ -1,4 +1,6 @@
-import { sign } from 'jsonwebtoken';
+//import { sign } from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
+const { sign } = jwt;
 import User from '../models/User.js';
 import { JWT_SECRET } from '../config/env.js';
 

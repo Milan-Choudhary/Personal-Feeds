@@ -8,7 +8,7 @@
     "shared"
   ],
   "scripts": {
-    "dev": "echo \"Run workspace-specific scripts in each package.\"",
+    "dev": "concurrently \"npm --workspace frontend run dev\" \"npm --workspace backend run dev\"",
     "lint": "echo \"Add lint scripts per package.\""
   },
   "dependencies": {
