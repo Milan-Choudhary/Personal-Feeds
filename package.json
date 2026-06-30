@@ -1,0 +1,14 @@
+{
+  "name": "ai-content-platform",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "ai-engine",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "echo \"Run workspace-specific scripts in each package.\"",
+    "lint": "echo \"Add lint scripts per package.\""
+  }
+}
